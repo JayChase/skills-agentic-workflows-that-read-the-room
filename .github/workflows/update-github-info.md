@@ -17,6 +17,7 @@ network:
   allowed:
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 engine:
   id: copilot
   copilot-sdk: true
@@ -31,6 +32,7 @@ Use these sources:
 - `notes/mona-notes.md`
 - GitHub Blog: https://github.blog/latest/ (web fetch this page)
 - GitHub Changelog: https://github.blog/changelog/ (web fetch this page)
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/ (web fetch this page)
 
 Update `site/content/github-info.md` with concise, practical updates for
 readers and include source context when content comes from the GitHub Blog
